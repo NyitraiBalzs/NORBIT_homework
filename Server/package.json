@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for handling incomeing data and serving clients",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon Server"
+  },
+  "author": "Nyitrai Balázs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
